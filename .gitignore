@@ -1,0 +1,34 @@
+# Build directories
+build/
+out/
+cmake-build-*/
+.vs/
+.vscode/ipch/
+
+# Dependency caches
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+
+# Compiled binaries
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.a
+*.lib
+
+# Generated files
+*.cmake
+Makefile
+compile_commands.json
+
+# IDE files
+.idea/
+.vscode/*.log
+.vs/
+xcuserdata/
+*.code-workspace
+.DS_Store
