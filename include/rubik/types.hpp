@@ -49,4 +49,4 @@ struct Edge {
     u8 unused : 3;
 };
 
-using MoveSequennce = std::vector<Move>;
+using MoveSequence = std::vector<Move>;
